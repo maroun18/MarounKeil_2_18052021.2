@@ -13,8 +13,6 @@
 {
     width: 1350px;
     margin: auto;
-    overflow-y:hidden
-
 }
 
 a
@@ -569,7 +567,7 @@ footer li
     margin-right: 140px;
 }
 
-@media screen and (min-width:319px) and (max-width:415px) 
+@media screen and (max-width:415px) 
 {
     
     body
@@ -582,6 +580,7 @@ footer li
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        overflow: hidden;
     }
     
     .reservia-img

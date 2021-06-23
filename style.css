@@ -11,7 +11,7 @@
 
 #main_wrapper
 {
-    width: 1350px;
+    max-width: 1350px;
     margin: auto;
 }
 
@@ -569,7 +569,7 @@ footer li
 
 @media screen and (max-width:415px) 
 {
-    
+
     #main_wrapper{
         width: 100%;
         display: flex;

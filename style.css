@@ -78,7 +78,8 @@ nav li
 
 nav li a:hover
 {
-    border-top: 3px solid #0065FC;    
+    border-top: 3px solid #0065FC;
+    color: #0065FC;    
 }
 
 
@@ -89,16 +90,19 @@ li a:active
 
 nav li a
 {
-    color:#0065FC;
     text-decoration: none;
     font-size: 1em;
-    padding-top: 21px;
-    
+    padding-top: 21px;    
 }
 
 #inscrire
 {
     font-weight: bold;
+}
+
+.inscription
+{
+    color:#0065FC;
 }
 
 /*     HEADER   */
